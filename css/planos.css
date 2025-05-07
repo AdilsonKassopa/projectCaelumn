@@ -106,12 +106,12 @@
     line-height: 18px;
 }
 
-.pllanos a {
+.planos a {
     font-weight: 700;
 }
 
 @media(min-width:768px){
-    .panos{
+    .planos{
         grid-template-columns: 20rem 20rem;
         grid-template-areas: 
         "header header"
@@ -130,7 +130,11 @@
         grid-area: card2;
     }
     .card--semestral{
+        grid-area: card1;
+    }
+    .planos__pagamentos{
         grid-column-end: span2;
+        grid-area: footer;
     }
     .planos--maisassinado{
         font-size: .8rem;
