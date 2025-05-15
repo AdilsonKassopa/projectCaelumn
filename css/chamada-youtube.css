@@ -76,9 +76,8 @@
     .chamada__youtube{
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-        "chamada chamada",
-        "video1 video2"
-        ;
+        "chamada chamada"
+        "video1 video2";
     }
     .youtube__informacao{
         padding: 2rem 17%;
